@@ -1,7 +1,16 @@
 public class Vertebrate {
 
+    private String animalNickName="astronaut";
+    protected String wannabe;
+
+    private int num=3;
+
     public void animalType(){
         System.out.println("It is a Vertebrate, so please add more to the description!");
+        animalNickName="Huncutka";
+        wannabe="Astronaut";
+        System.out.println("The original animal nickname is: " + animalNickName);
+        System.out.println("The original animal aim was: " + wannabe);
     }
 
     public void animalExacterType(int legNumber){
@@ -18,5 +27,17 @@ public class Vertebrate {
                 System.out.println("It is probably a mammal!");
                 break;
         }
+    }
+
+    public String getAnimalNickName() {
+        return animalNickName;
+    }
+
+    public void setAnimalNickName(String name) {
+        this.animalNickName = name;
+    }
+
+    public int doubledLegs(int legs){
+        return legs*2;
     }
 }
