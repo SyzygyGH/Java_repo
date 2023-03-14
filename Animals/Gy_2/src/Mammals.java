@@ -8,4 +8,5 @@ public class Mammals extends Vertebrate{
     public int doubledLegs(int legs){
         return legs*2*4;
     }
+
 }

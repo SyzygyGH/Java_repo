@@ -7,6 +7,7 @@ public class FunctionMain {
         Vertebrate vertebrate = new Vertebrate();
         Mammals mammal = new Mammals();
         Birds bird = new Birds();
+        BirdsMammals birdmammal = new BirdsMammals();
 
 
         System.out.println("What is the name of the animal?");
@@ -41,6 +42,10 @@ public class FunctionMain {
         System.out.println("Number of doubled legs in mammal class: "+ mammal.doubledLegs(legNumbers));
         System.out.println("Number of doubled legs in bird class: "+ bird.doubledLegs(legNumbers));
 
+
+        System.out.println("The multiple inheritance with interfaces works, bacuse: ");
+        birdmammal.movementBird();
+        birdmammal.movementMammal();
 
 
     }

@@ -8,4 +8,5 @@ public class Birds extends Vertebrate{
     public int doubledLegs(int legs){
         return legs*2*2;
     }
+
 }
