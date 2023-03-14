@@ -22,6 +22,7 @@ public class FunctionMain {
             vertebrate.animalExacterType(legNumbers);
         }
 
+        System.out.println("Ez mar az uj verzio");
 
 
     }
