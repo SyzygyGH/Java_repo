@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane id="basePane" fx:id="basePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField id="calculationPanel" fx:id="calculationPanel" layoutX="430.0" layoutY="160.0" prefHeight="40.0" prefWidth="300.0" />
+      <Button id="sevenButton" fx:id="sevenButton" layoutX="430.0" layoutY="230.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#sevenButtonAction" text="7">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <TextField id="resultPanel" fx:id="resultPanel" layoutX="430.0" layoutY="70.0" prefHeight="60.0" prefWidth="300.0" />
+      <Button id="nullButton" fx:id="nullButton" layoutX="430.0" layoutY="470.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#nullButtonAction" prefHeight="60.0" prefWidth="190.0" text="0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="fourButton" fx:id="fourButton" layoutX="430.0" layoutY="310.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#fourButtonAction" text="4">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="oneButton" fx:id="oneButton" layoutX="430.0" layoutY="390.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#oneButtonAction" text="1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="fiveButton" fx:id="fiveButton" layoutX="540.0" layoutY="310.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#fiveButtonAction" text="5">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="twoButton" fx:id="twoButton" layoutX="540.0" layoutY="390.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#twoButtonAction" text="2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="threeButton" fx:id="threeButton" layoutX="650.0" layoutY="390.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#threeButtonAction" text="3">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="sixButton" fx:id="sixButton" layoutX="650.0" layoutY="310.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#sixButtonAction" text="6">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="eightButton" fx:id="eightButton" layoutX="540.0" layoutY="230.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#eightButtonAction" text="8">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="nineButton" fx:id="nineButton" layoutX="650.0" layoutY="230.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#nineButtonAction" text="9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="subButton" fx:id="subButton" layoutX="70.0" layoutY="230.0" minHeight="80.0" minWidth="120.0" mnemonicParsing="false" onAction="#subButtonAction" text="-">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="multiButton" fx:id="multiButton" layoutX="230.0" layoutY="370.0" minHeight="80.0" minWidth="120.0" mnemonicParsing="false" onAction="#multiButtonAction" text="*">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="addButton" fx:id="addButton" layoutX="230.0" layoutY="230.0" minHeight="80.0" minWidth="120.0" mnemonicParsing="false" onAction="#addButtonAction" text="+">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="divButton" fx:id="divButton" layoutX="70.0" layoutY="370.0" minHeight="80.0" minWidth="120.0" mnemonicParsing="false" onAction="#divButtonAction" text="/">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="calculateButton" fx:id="calculateButton" layoutX="650.0" layoutY="470.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#calculateButtonAction" text="=">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button id="resetButton" fx:id="resetButton" layoutX="135.0" layoutY="100.0" minHeight="60.0" minWidth="80.0" mnemonicParsing="false" onAction="#resetButtonAction" prefHeight="60.0" prefWidth="190.0" text="reset">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
